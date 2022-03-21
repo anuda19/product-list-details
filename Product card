@@ -1,0 +1,202 @@
+// E Commerce app product details and product card page
+
+//Product Details
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instacart</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="./css1/common.css">
+     <link rel="stylesheet" href="./css1/all.min.css">
+     <link rel="stylesheet" href="./css1/productdetails.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary fw-bold">
+        <div class="container-fluid">
+            <img src="image/hello-removebg-preview.png" alt="" height="40px" width="40px">
+             <a class="navbar-brand mx-1" href="./login.html">InstaCart</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="navbar-brand m-2" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand m-2" href="./productList.html">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand m-2" href="./productdetails.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand m-2" >About Us</a></li>
+                    <li class="nav-item">
+                      <a class="navbar-brand m-2" href="./login.html">Logout</a></li>
+            </ul>
+        </div> 
+        <form class="search d-flex ">
+            <input type="search" class="form-control me-2" placeholder="Search">
+            <button class="btn btn-warning">Search</button>
+        </form>  
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Product Details Page</h1>
+        <div class="row">
+            <div class="col">
+                <img src="image/borocoli.jpg" height="400px" width="500px" alt="">
+            </div>
+            <div class="col">
+                <button style="border-radius: 10%; border-bottom: 2px solid greenyellow;">Fresh</button>
+                <h5>Fresho Broccoli, 1 pc (Approx. 250g-500g)</h5>
+                <p class="price my-2"><strike>Mrp: Rs. 50</strike><b> Price Rs. 40/kg</b> You save 21% (Inclusive of all taxes)</p> 
+                <input type="number" placeholder="1" style="width: 50px; height: 35px;"> <button class="btn btn-success"><b>ADD TO BASKET</b></button> <button class="btn btn-light" style="color: black; border: 1px solid black;">SAVE</button>
+                <br>
+                <br>
+                <i class="fa-solid fa-truck"></i> Standard: Today 9:00AM - 1:30PM
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <h3>Fresho Broccoli</h3>
+        <hr>
+        <div class="row">
+            <h5>About the Product</h5>
+            <p style="font-size: small;">With a shape resembling that of a cauliflower, Brocollis have clusters of small, tight flower heads. These heads turn bright green on cooking and tastes slightly bitter.
+                Do not forget to check our delicious recipe - https://www.bigbasket.com/cookbook/recipes/1695/broccoli-masala/ </p>
+            <hr>
+            <h5>Benefits</h5>
+            <ul style="font-size: small;">
+                <li>Broccoli prevents cancer and reduces cholesterol.</li>
+                <li>Maintains bone and heart health.</li>
+                <li>Good for skin, eyes and has anti-aging properties.</li>
+            </ul>
+            <hr>
+            <h5>Storage and Uses</h5>
+            <ul style="font-size: small;">
+                <li>Consume fresh broccoli as soon as you can as it will not keep for long.</li>
+                <li>To store, drizzle water droplets on the flower heads, cover loosely in damp paper towels and refrigerate.</li>
+                <li>But never wash broccoli before storing in the refrigerator.</li>
+                <li>The excess moisture promotes mold.</li>
+                <li>Do not store broccoli in a sealed container or plastic bag. Raw broccolis requires air circulation.</li>
+                <li>Brocollis serve as a healthy raw vegetable.</li>
+                <li>Add them to your salads, pasta, curries and rice. Steam broccoli stalks, add some salt and oil and roast it for a crunchy flavour.</li>
+            </ul>
+            <hr>
+            <h5>Other Product Info</h5>
+            <p style="font-size: small;">EAN Code: 10000063
+                Sourced & Marketed by: Supermarket Grocery Supplies Pvt. Ltd, No. 7, Service Road, Off 100 Feet Road Indiranagar Landmark: Above HDFC Bank Bangalore, Karnataka 560071
+                Country of Origin: India
+                Best before 3 days from delivery date
+                For Queries/Feedback/Complaints, Contact our Customer Care Executive at: Phone: 1860 123 1000 | Address: Innovative Retail Concepts Private Limited, No.18, 2nd & 3rd Floor, 80 Feet Main Road, Koramangala 4th Block, Bangalore - 560034 | Email: customerservice@bigbasket.com </p>
+                <hr>
+        </div>
+    </div>
+    <div class="container my-4"> 
+        <h4>Rating and Reviews</h4>
+    </div>
+    <div class="container my-2" style="border: 1px solid black;">
+        <br>
+        <br>                
+       <center> <i class="fa-solid fa-star"></i>
+        <h6 style="font-size: small;">Want to rate this product?</h6>
+        <p>You can rate and review this product <br>
+            only after purchasing from Instacart</p></center>
+        <br>
+        <br>
+    </div>
+
+    <div class="container my-5">
+        <center> <h4>Frequently Bought Together</h4></center>
+        <hr>
+         <div class="card-group">
+           <div class="card mx-2" style="width: 12rem;">
+           <div class="off my-2 mx-3" style="color: brown;"><h6>Get 20% off</h6></div>
+           <img src="Image/potato.jpg" class="card-img-top " alt="...">
+           <div class="card-body">
+             <h5 class="card-title"><b>Potato</b></h5>
+             <select name="select" id="">
+               <option value="">500g-Rs 20</option>
+               <option value="">250g-Rs 10</option>
+             </select>
+             <h6 class="price my-2"><strike>Mrp: Rs. 50</strike> Rs. 40/kg</h6>
+             <div class="btn-group">
+             <h6 class="mx-1">Qty</h6><input type="number" style="width: 50px; border-radius: 10%; height: 25px; margin-right: 5px;">
+               <a href="./productdetails.html"><button class="btn btn-warning" style="color: black;"><b>ADD </b><i class="fa-solid fa-cart-shopping"></i></button></a>
+             </div>
+           </div>
+         </div>
+         <div class="card mx-2" style="width: 12rem;">
+           <div class="off my-2 mx-3" style="color: brown;"><h6>Get 20% off</h6></div>
+           <img src="Image/tomato.jpg" class="card-img-top " alt="...">
+           <div class="card-body">
+             <h5 class="card-title"><b>Tomato</b></h5>
+             <select name="select" id="">
+               <option value="">500g-Rs 20</option>
+               <option value="">250g-Rs 10</option>
+             </select>
+             <h6 class="price my-2"><strike>Mrp: Rs. 50</strike> Rs. 40/kg</h6>
+             <div class="btn-group">
+               <h6 class="mx-1">Qty</h6><input type="number" style="width: 50px; border-radius: 10%; height: 25px; margin-right: 5px;">
+                 <a href="./productdetails.html"><button class="btn btn-warning" style="color: black;"><b>ADD </b><i class="fa-solid fa-cart-shopping"></i></button></a>
+               </div>
+           </div>
+         </div>
+         <div class="card mx-2" >
+           <div class="off my-2 mx-3" style="color: brown;"><h6>Get 20% off</h6></div>
+           <img src="Image/borocoli.jpg" class="card-img-top " height="170px" alt="...">
+           <div class="card-body">
+             <h5 class="card-title"><b>Brocoli</b></h5>
+             <select name="select" id="">
+               <option value="">500g-Rs 20</option>
+               <option value="">250g-Rs 10</option>
+             </select>
+             <h6 class="price my-2"><strike>Mrp: Rs. 50</strike> Rs. 40/kg</h6>
+             <p class="card-text"></p>
+             <div class="btn-group">
+               <h6 class="mx-1">Qty</h6><input type="number" style="width: 50px; border-radius: 10%; height: 25px; margin-right: 5px;">
+                 <a href="./productdetails.html"><button class="btn btn-warning" style="color: black;"><b>ADD </b><i class="fa-solid fa-cart-shopping"></i></button></a>
+               </div>
+           </div>
+         </div>
+         <div class="card mx-2">
+           <div class="off my-2 mx-3" style="color: brown;"><h6>Get 20% off</h6></div>
+           <img src="Image/download.jpg" class="card-img-top" style="height: 170px;" alt="...">
+           <div class="card-body">
+             <h5 class="card-title"><b>Cauliflower</b></h5>
+             <select name="select" id="">
+               <option value="">500g-Rs 20</option>
+               <option value="">250g-Rs 10</option>
+             </select>
+             <h6 class="price my-2"><strike>Mrp: Rs. 50</strike> Rs. 40/kg</h6>
+             <div class="btn-group">
+               <h6 class="mx-1">Qty</h6><input type="number" style="width: 50px; border-radius: 10%; height: 25px; margin-right: 5px;">
+                 <a href="./productdetails.html"><button class="btn btn-warning" style="color: black;"><b>ADD </b><i class="fa-solid fa-cart-shopping"></i></button></a>
+               </div>
+           </div>
+         </div>
+         <div class="card mx-2 slider">
+           <div class="off my-2 mx-3" style="color: brown;"><h6>Get 20% off</h6></div>
+           <img src="Image/download (1).jpg" class="card-img-top " height="170px" alt="...">
+           <div class="card-body">
+             <h5 class="card-title"><b>Capsicum</b></h5>
+             <select name="select" id="">
+               <option value="">500g-Rs 20</option>
+               <option value="">250g-Rs 10</option>
+             </select>
+             <h6 class="price my-2"><strike>Mrp: Rs. 50</strike> Rs. 40/kg</h6>
+             <p class="card-text"></p>
+             <div class="btn-group">
+               <h6 class="mx-1">Qty</h6><input type="number" style="width: 50px; border-radius: 10%; height: 25px; margin-right: 5px;">
+                 <a href="./productdetails.html"><button class="btn btn-warning" style="color: black;"><b>ADD </b><i class="fa-solid fa-cart-shopping"></i></button></a>
+               </div>
+           </div>
+         </div>
+         </div>
+</body>
+</html>
